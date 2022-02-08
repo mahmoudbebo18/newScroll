@@ -44,7 +44,12 @@ body {
 
 /*scroll_links*/
 .scroll_links {
-  padding: 50px 0; }
+  padding: 50px 0;
+  height: 100vh; }
+  .scroll_links .my_container {
+    height: 100%;
+    display: flex;
+    align-items: flex-end; }
 
 .links__wrapper {
   position: relative;
@@ -66,7 +71,7 @@ body {
   background-color: #fff;
   border-radius: 8px;
   text-decoration: none;
-  color: #6C7283;
+  color: #6c7283;
   padding: 8px;
   width: 275px;
   display: flex;
@@ -80,7 +85,7 @@ body {
     text-transform: capitalize;
     margin: 0 0 8px 0; }
   .item_link .item_caption p {
-    color: #C7CDD9;
+    color: #c7cdd9;
     margin: 0; }
 
 /*# sourceMappingURL=design_1.css.map */

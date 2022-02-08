@@ -95,5 +95,20 @@ body {
     @media (max-width: 575px) {
       .my_products .main_product {
         height: auto; } }
+  .my_products .oher_products {
+    display: flex; }
+    .my_products .oher_products .left_part,
+    .my_products .oher_products .right_part {
+      width: 50%; }
+      .my_products .oher_products .left_part .product,
+      .my_products .oher_products .right_part .product {
+        width: 100% !important; }
+    .my_products .oher_products .left_part {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fbdcca; }
+      .my_products .oher_products .left_part img {
+        height: auto; }
 
 /*# sourceMappingURL=design_4.css.map */
