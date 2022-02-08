@@ -102,7 +102,8 @@ body {
       width: 50%; }
       .my_products .oher_products .left_part .product,
       .my_products .oher_products .right_part .product {
-        width: 100% !important; }
+        width: 100% !important;
+        height: auto !important; }
     .my_products .oher_products .left_part {
       display: flex;
       align-items: center;
