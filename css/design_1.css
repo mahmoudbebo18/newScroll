@@ -49,7 +49,18 @@ body {
 .links__wrapper {
   position: relative;
   display: flex;
-  overflow-x: scroll; }
+  overflow-x: scroll;
+  /* Track */
+  /* Handle */ }
+  .links__wrapper::-webkit-scrollbar {
+    width: 5px;
+    height: 8px; }
+  .links__wrapper::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #f1f1f1; }
+  .links__wrapper::-webkit-scrollbar-thumb {
+    background: #d7d7d7;
+    border-radius: 10px; }
 
 .item_link {
   background-color: #fff;
