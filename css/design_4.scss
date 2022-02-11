@@ -69,8 +69,6 @@ body {
   
   text-align: center;
   height:100vh;
-  position: fixed;
-  width: 100%;
   .products_wrapper{
     height: 100%;
     padding: 16px 0;
@@ -122,7 +120,10 @@ body {
   .main_product {
     width: 100%;
     padding: 0;
-    height: 200px !important;
+    height: 400px !important;
+    @media(max-width:767px){
+      height: 250px !important;
+    }
   }
   .oher_products {
     display: flex;
@@ -130,14 +131,10 @@ body {
     .left_part,
     .right_part {
       width: 50%;
-      img{
-        width: 150px;
-        height: 100px;
-      }
       .product {
         width: 100% !important;
         height: auto !important;
-        padding: 8px;
+        padding: 24px;
         align-items: center;
       }
     }
